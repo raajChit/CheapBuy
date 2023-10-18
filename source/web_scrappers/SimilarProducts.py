@@ -46,7 +46,7 @@ class SimilarProducts:
             similar_products = []
 
             for item in results.get('items', []):
-                if len(similar_products) >= 5:
+                if len(similar_products) >= 3:
                     break
                 product_info = {
                     'title': item['title'],
