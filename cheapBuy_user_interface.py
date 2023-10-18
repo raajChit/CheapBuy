@@ -9,9 +9,11 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 import webbrowser
 import pandas as pd
 from source.web_scrappers.WebScrapper import WebScrapper
+from source.web_scrappers.SimilarProducts import SimilarProducts
 import os
 import streamlit as st
 import sys
+
 sys.path.append('../')
 
 title = '<p style="font-family:Bradley Hand, cursive; color:#64b3f4; font-size: 157px;">cheapBuy</p>'
@@ -75,6 +77,12 @@ price_min, price_max = price_filter(price_range)
 if url:
     webScrapper = WebScrapper(url)
     results = webScrapper.call_scrapper()
+    similarResults = []
+    similarProducts = SimilarProducts()
+    similarProductsResults = similarProducts.search_for_similar_products(webScrapper.get_description())
+    for product in similarProductsResults:
+        webScrapper.set_product_link({product['link']})
+        similarResults.append(webScrapper.call_scrapper())
 
     # Use st.columns based on return values
     description, url, price, site = [], [], [], []
