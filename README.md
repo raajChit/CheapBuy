@@ -21,7 +21,7 @@ The project is deployed on Streamlit cloud
 
 1. Clone the github repository at the preferable location in your local machine. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
 ```
-git clone https://github.com/
+git clone https://github.com/piyush1prasad/proj2
 cd cheapBuy
 ```
 2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of the requirements.
