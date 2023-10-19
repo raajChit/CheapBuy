@@ -30,7 +30,7 @@ class SimilarProducts:
         print("the keywords are", keywords)
         
         # Adding site: operators for bestbuy.com and amazon.com
-        site_search_query = f"{keywords} site:amazon.com)"
+        site_search_query = f"{keywords} site:bestbuy.com)"
 
         api_key = "AIzaSyBME0fKEa6lrpYhZOEXZ-I-n0X6PPIv8H0"
         custom_search_engine_id = "326742dad9a9a4cb1"
