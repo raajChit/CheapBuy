@@ -30,13 +30,13 @@ class SimilarProducts:
         print("the keywords are", keywords)
         
         # Adding site: operators for bestbuy.com and amazon.com
-        site_search_query = f"{keywords} site:bestbuy.com)"
+        # site_search_query = f"{keywords} site:bestbuy.com)"
 
         api_key = "AIzaSyBME0fKEa6lrpYhZOEXZ-I-n0X6PPIv8H0"
         custom_search_engine_id = "326742dad9a9a4cb1"
 
         # including the site: operators in the query ('q') parameter
-        url = f"https://www.googleapis.com/customsearch/v1?key={api_key}&cx={custom_search_engine_id}&q={site_search_query}"
+        url = f"https://www.googleapis.com/customsearch/v1?key={api_key}&cx={custom_search_engine_id}&q={keywords}"
 
         response = requests.get(url)
 
@@ -46,7 +46,7 @@ class SimilarProducts:
             similar_products = []
 
             for item in results.get('items', []):
-                if len(similar_products) >= 3:
+                if len(similar_products) >= 5:
                     break
                 product_info = {
                     'title': item['title'],
