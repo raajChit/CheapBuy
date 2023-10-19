@@ -13,7 +13,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/piyush1prasad/proj2)
 ![GitHub search hit counter](https://img.shields.io/github/search/piyush1prasad%20/proj2/cheap%20buy)
 [![Python Style Checker](https://github.com/anshulp2912/cheapBuy/actions/workflows/style_checker.yml/badge.svg)](https://github.com/piyush1prasad/proj2/actions/workflows/style_checker.yml)
-[![Run Tests On Push](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml)
+[![Run Tests On Push](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml/badge.svg)](https://github.com/piyush1prasad/proj2/actions/workflows/unit_test.yml)
 [![Lint Python](https://github.com/anshulp2912/cheapBuy/actions/workflows/main.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/main.yml)
 [![Running Code Coverage](https://github.com/anshulp2912/cheapBuy/actions/workflows/code_cov.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/code_cov.yml)
 [![Close as a feature](https://github.com/anshulp2912/cheapBuy/actions/workflows/close_as_a_feature.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/close_as_a_feature.yml)
