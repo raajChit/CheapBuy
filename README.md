@@ -44,9 +44,9 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 
 
 ## 👥 Team Members 
-- **Piyush Prasad**
-- **Raaj Chitnis**
-- **Ameaza Rodrigues**
+- :raising_hand: **Piyush Prasad**
+- :raising_hand_man: **Raaj Chitnis**
+- :sassy_woman: **Ameaza Rodrigues**
 
 
 
