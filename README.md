@@ -40,9 +40,9 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 
 
 ## 👥 Team Members 
-**Piyush Prasad**
-**Raaj Chitnis**
-**Ameaza Rodrigues**
+- **Piyush Prasad**
+- **Raaj Chitnis**
+- **Ameaza Rodrigues**
 
 
 
