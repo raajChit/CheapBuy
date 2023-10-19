@@ -82,7 +82,6 @@ if url:
     similarProductsResults = similarProducts.search_for_similar_products(webScrapper.get_description())
     # print("The similar products are", similarProductsResults)
     for product in similarProductsResults:
-        print(product['link'])
         webScrapper.set_product_link(product['link'])
         similarResults.append(webScrapper.call_scrapper())
     
@@ -165,7 +164,7 @@ if url:
         st.dataframe(dataframe.style.apply(highlight_row, axis=None))
 
         st.markdown(
-            "<h1 style='text-align: center; color: #1DC5A9;'>SIMILAR RESULT</h1>", unsafe_allow_html=True)
+            "<h1 style='text-align: center; color: #1DC5A9;'>SIMILAR PRODUCT</h1>", unsafe_allow_html=True)
         st.dataframe(similarDataframe.style.apply(highlight_row, axis=None))
 
         st.markdown(
