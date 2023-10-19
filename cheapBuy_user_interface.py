@@ -16,7 +16,9 @@ import sys
 
 sys.path.append('../')
 
-title = '<p style="font-family:Bradley Hand, cursive; color:#64b3f4; font-size: 157px;">cheapBuy</p>'
+
+
+title = '<p style="font-family:Mission Script; color:#ed1c4a; font-size: 150px;">Cheapbuy</p>'
 # st.title("CheapBuy")
 st.markdown(title, unsafe_allow_html=True)
 # st.image("media/saveMoney2.gif")
@@ -31,7 +33,7 @@ sites = st.sidebar.selectbox("Select the website:", ("All Sites",
 price_range = st.sidebar.selectbox("Select the price range:", (
     "all", "Under $50", "[$50, $100)", "[$100, $150)", "[$150, $200)", "$200 & Above"))
 st.header("Website: " + sites.capitalize() +
-          '| |' + "Price Range: " + price_range)
+          " and    " + "Price Range: " + price_range)
 #st.header("Price Range: " + price_range)
 
 
@@ -203,7 +205,7 @@ position: fixed;
 left: 0;
 bottom: 0%;
 width: 100%;
-background-color: #FBD786;
+background-color: #f5ccc1;
 color: black;
 text-align: center;
 }
@@ -216,7 +218,10 @@ text-align: center;
 <a href="https://github.com/joshlin5" target="_blank">Joshua</a>, 
 <a href="https://github.com/zhijin44" target="_blank">Zhijin</a>, 
 <a href="https://github.com/SamuelVivivi" target="_blank">Guanyu</a>, 
-<a href="https://github.com/freakleesin" target="_blank">Rundi</a>
+<a href="https://github.com/freakleesin" target="_blank">Rundi</a>,
+<a href="https://github.com/raajChit" target="_blank">Raaj</a>, 
+<a href="https://github.com/ameaza" target="_blank">Ameaza</a>, 
+<a href="https://github.com/piyush1prasad" target="_blank">Piyush</a>
 </div>
 """
 
