@@ -5,8 +5,12 @@
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.705900498.svg)](https://doi.org/10.5281/zenodo.705900498)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub](https://img.shields.io/github/license/piyush1prasad/proj2)
+![GitHub forks](https://img.shields.io/github/forks/piyush1prasad/proj2)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/piyush1prasad/proj2)
+![GitHub issues](https://img.shields.io/github/issues/piyush1prasad/proj2)
 ![GitHub repo size](https://img.shields.io/github/repo-size/piyush1prasad/proj2)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/piyush1prasad/proj2)
 ![Discord](https://img.shields.io/discord/1164632752960831498)
 ![GitHub pull request check contexts](https://img.shields.io/github/status/contexts/pulls/piyush1prasad/proj2/2)
 ![GitHub pull request check state](https://img.shields.io/github/status/s/pulls/piyush1prasad/proj2/1)
