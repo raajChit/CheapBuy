@@ -68,6 +68,9 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 - :sassy_woman: **Ameaza Rodrigues**
 
 
+## Chat with us
+Join our [Discord](https://discord.gg/Vw46v5Av)
+
 
 ## 🙏 Acknowledgements 
 We would like to thank Professor Dr Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank the teaching assistants Xiao Ling, Andre Lustosa, Kewen Peng, Weichen Shi for their support throughout the project.
