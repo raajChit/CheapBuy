@@ -74,7 +74,7 @@ Join our [Discord](https://discord.gg/Vw46v5Av)
 
 ## 🙏 Acknowledgements 
 We would like to thank Professor Dr Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank the teaching assistants Xiao Ling, Andre Lustosa, Kewen Peng, Weichen Shi for their support throughout the project.
-We would also like to extend our gratitude to previous group : [https://github.com/het-patel99/cheapBuy](https://github.com/anshulp2912/cheapBuy)
+We would also like to extend our gratitude to previous group : [(https://github.com/anshulp2912/cheapBuy)](https://github.com/anshulp2912/cheapBuy)
 - [https://streamlit.io/](https://streamlit.io/)
 - [https://shields.io/](https://shields.io/)
 - [https://www.powtoon.com/](https://www.powtoon.com/)
