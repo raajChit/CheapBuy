@@ -100,11 +100,8 @@ class WebScrapper_Amazon:
         try:
             # Prepare URL for given description
             template = 'https://www.amazon.com'+'/s?k={}&ref=nb_sb_ss_ts-doa-p_3_5'
-            print('Amazon Template: ', template)
             search_term = self.description.replace(' ', '+')
-            print('Amazon Search_term: ', search_term)
             template = template.format(search_term)
-            print('Amazon Template: ', template)
         except:
             template = ''
         return template

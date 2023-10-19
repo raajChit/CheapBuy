@@ -48,6 +48,9 @@ class WebScrapper:
         self.product_link = product_link
         self.executor = ThreadPoolExecutor(max_workers=10)
 
+    def set_product_link(self, product_link):
+        self.product_link = product_link
+
     def get_description(self):
         """
         Fetch description for all websites
@@ -92,7 +95,6 @@ class WebScrapper:
         else:
             source = 'N/A'
         if source != 'N/A':
-            print('WebScrapper Desc: ', description)
             return description
 
     def call_scrapper(self):
@@ -104,9 +106,8 @@ class WebScrapper:
         # print(product_description)
 
         #scrapper = [WebScrapper_Bestbuy] # So slow though only bestbuy, why?
-        #scrapper = [WebScrapper_Amazon, WebScrapper_Walmart, WebScrapper_Ebay,
-        #            WebScrapper_Bjs, WebScrapper_Costco, WebScrapper_TraderJoes, WebScrapper_Kroger]
-        scrapper = [WebScrapper_Amazon]
+        scrapper = [WebScrapper_Amazon, WebScrapper_Walmart, WebScrapper_Ebay,
+                    WebScrapper_Bjs, WebScrapper_Costco, WebScrapper_TraderJoes, WebScrapper_Kroger]
         t_scrapper = [s.__call__(product_description) for s in scrapper]
 
         res = []
