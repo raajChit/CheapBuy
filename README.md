@@ -40,6 +40,10 @@
 ## 🚀 Demo
 The project is deployed on Streamlit cloud
 
+[![Watch the video](https://img.youtube.com/vi/h5sJ7DXzi9U/maxresdefault.jpg)](https://youtu.be/h5sJ7DXzi9U)
+
+
+
 ## 🛠️ Steps of Execution
 
 1. Clone the github repository at the preferable location in your local machine. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
