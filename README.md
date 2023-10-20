@@ -42,9 +42,11 @@ The project is deployed on Streamlit cloud
 
 [![Watch the video](https://img.youtube.com/vi/h5sJ7DXzi9U/maxresdefault.jpg)](https://youtu.be/h5sJ7DXzi9U)
 
+## :money_with_wings: Who should use this?
+Anybody who wants to save money but does not want to spend too much time trying to search across multiple websites
 
 
-## 🛠️ Steps of Execution
+## 🛠️ Quick Start 
 
 1. Clone the github repository at the preferable location in your local machine. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
 ```
@@ -60,6 +62,11 @@ pip install -r requirements.txt
 ```
 streamlit run cheapBuy_user_interface.py
 ```
+5. Copy and Paste the product URL in the search bar. Press enter
+   
+7. Review the results
+   
+9. Visit the website offering the cheapest deal!!
 
 
 ## 📝 License 
@@ -75,6 +82,12 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 ## Chat with us
 Join our [Discord](https://discord.gg/Vw46v5Av)
 
+Or email us at: cheapbuy925@gmail.com
+
+
+## Score Cards
+
+[Here](https://docs.google.com/spreadsheets/d/1wuk8p1hj38N9aig3g4C0a22Q8zBikaV-VdsxiQKQrfA/edit?usp=sharing) are the scorecards
 
 ## 🙏 Acknowledgements 
 We would like to thank Professor Dr Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank the teaching assistants Xiao Ling, Andre Lustosa, Kewen Peng, Weichen Shi for their support throughout the project.
