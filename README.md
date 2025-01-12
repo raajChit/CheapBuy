@@ -40,7 +40,7 @@
 ## 🚀 Demo
 The project is deployed on Streamlit cloud
 
-[![Watch the video](https://img.youtube.com/vi/h5sJ7DXzi9U/maxresdefault.jpg)](https://youtu.be/h5sJ7DXzi9U)
+[![Watch the video](https://img.youtube.com/vi/oMpKkhVB0Eo/maxresdefault.jpg)](https://youtu.be/oMpKkhVB0Eo)
 
 ## :money_with_wings: Who should use this?
 Anybody who wants to save money but does not want to spend too much time trying to search across multiple websites
